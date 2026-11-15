@@ -1,0 +1,129 @@
+[
+  {
+    "id": "nasa-srtm",
+    "name": "NASA Shuttle Radar Topography Mission (SRTM GL1)",
+    "provider": "NASA JPL / USGS",
+    "planetary_domain": "Earth",
+    "resolution": "30 meters (1 arc-second)",
+    "parameters": [
+      "Elevation",
+      "Slope",
+      "Surface Roughness",
+      "Ruggedness Index"
+    ],
+    "access": "Public Domain / NASA Earthdata API",
+    "url": "https://earthdata.nasa.gov/"
+  },
+  {
+    "id": "nasa-modis-lst",
+    "name": "NASA MODIS Land Surface Temperature & Emissivity (MOD11A2)",
+    "provider": "NASA LP DAAC",
+    "planetary_domain": "Earth",
+    "resolution": "1 km spatial, 8-day composite",
+    "parameters": [
+      "Day/Night Surface Temp",
+      "Diurnal Temperature Amplitude"
+    ],
+    "access": "Public Domain / OpenDAP",
+    "url": "https://lpdaac.usgs.gov/products/mod11a2v061/"
+  },
+  {
+    "id": "nasa-ceres",
+    "name": "NASA CERES Clouds and Earth Radiant Energy System",
+    "provider": "NASA Langley Research Center",
+    "planetary_domain": "Earth",
+    "resolution": "1 degree spatial grid",
+    "parameters": [
+      "Direct Normal Irradiance (DNI)",
+      "Surface Downwelling Solar Flux"
+    ],
+    "access": "Public Domain / NASA Earthdata",
+    "url": "https://ceres.larc.nasa.gov/"
+  },
+  {
+    "id": "nasa-lro-diviner",
+    "name": "NASA LRO Diviner Lunar Radiometer Experiment",
+    "provider": "NASA Planetary Data System (PDS)",
+    "planetary_domain": "Moon",
+    "resolution": "500 m / pixel polar grids",
+    "parameters": [
+      "Lunar Surface Temperature Extremes",
+      "PSR Cryogenic Temperatures"
+    ],
+    "access": "Public Domain / PDS Geosciences Node",
+    "url": "https://pds-geosciences.wustl.edu/missions/lro/diviner.htm"
+  },
+  {
+    "id": "nasa-lro-lola",
+    "name": "NASA LRO Lunar Orbiter Laser Altimeter (LOLA)",
+    "provider": "NASA Goddard Space Flight Center / PDS",
+    "planetary_domain": "Moon",
+    "resolution": "5-20 m / pixel polar relief",
+    "parameters": [
+      "Lunar Elevation",
+      "Slope Profiles",
+      "Crater Depth-to-Diameter Ratios"
+    ],
+    "access": "Public Domain / NASA Moon Trek",
+    "url": "https://trek.nasa.gov/moon/"
+  },
+  {
+    "id": "nasa-mro-crism",
+    "name": "NASA MRO Compact Reconnaissance Imaging Spectrometer for Mars",
+    "provider": "NASA JPL / APL / PDS",
+    "planetary_domain": "Mars",
+    "resolution": "18-36 m / pixel hyperspectral",
+    "parameters": [
+      "Phyllosilicates",
+      "Basaltic Mafic Minerals (Pyroxene/Olivine)",
+      "Sulfates",
+      "Hydrated Silica"
+    ],
+    "access": "Public Domain / NASA Mars Trek",
+    "url": "https://trek.nasa.gov/mars/"
+  },
+  {
+    "id": "nasa-mro-sharad",
+    "name": "NASA MRO Shallow Radar (SHARAD)",
+    "provider": "NASA / Italian Space Agency (ASI)",
+    "planetary_domain": "Mars",
+    "resolution": "15 m vertical in subsurface ice",
+    "parameters": [
+      "Subsurface Glacial Ice Sheets",
+      "Dielectric Permittivity"
+    ],
+    "access": "Public Domain / PDS Geosciences Node",
+    "url": "https://pds-geosciences.wustl.edu/missions/mro/sharad.htm"
+  },
+  {
+    "id": "esa-copernicus-s2",
+    "name": "Copernicus Sentinel-2 MultiSpectral Instrument (MSI)",
+    "provider": "European Space Agency (ESA)",
+    "planetary_domain": "Earth",
+    "resolution": "10-20 meters",
+    "parameters": [
+      "Mineral Composite Ratios",
+      "Iron Oxide Indices",
+      "Vegetation Absence"
+    ],
+    "access": "Public Domain / Copernicus Open Access Hub",
+    "url": "https://dataspace.copernicus.eu/"
+  },
+  {
+    "id": "usgs-mineral-spectral-library",
+    "name": "USGS High Resolution Mineral Spectral Library splib07a",
+    "provider": "United States Geological Survey (USGS)",
+    "planetary_domain": "Earth & Terrestrial Analogs",
+    "resolution": "0.2 to 200 micrometers spectral",
+    "parameters": [
+      "Jarosite",
+      "Hematite",
+      "Anorthosite",
+      "Augite",
+      "Olivine",
+      "Gypsum"
+    ],
+    "access": "Public Domain / USGS Spectroscopy Lab",
+    "url": "https://www.usgs.gov/labs/spec-lab"
+  }
+]

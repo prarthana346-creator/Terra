@@ -1,0 +1,1753 @@
+[
+  {
+    "id": "atacama-chile",
+    "name": "Atacama Desert (Yungay & Salar de Atacama)",
+    "country": "Chile",
+    "region": "Antofagasta",
+    "category": "Reference Location",
+    "coordinates": {
+      "lat": -24.085,
+      "lng": -69.87
+    },
+    "terrain_type": "Hyper-Arid Salt Basin & Desert Playa",
+    "elevation_m": 2450,
+    "slope_deg": 6.2,
+    "surface_roughness": 0.58,
+    "ruggedness_index": 45.0,
+    "crater_formations": false,
+    "mountainous_terrain": true,
+    "geology": {
+      "rock_composition": "Basaltic fragments, nitrate salts, anhydrite, halite, perchlorate deposits",
+      "basaltic_percentage": 52.0,
+      "volcanic_terrain": true,
+      "mineral_diversity_score": 78.0,
+      "regolith_similarity_score": 86.0,
+      "geological_stability_score": 75.0
+    },
+    "environmental": {
+      "surface_temp_mean_c": 16.5,
+      "temp_min_c": -4.0,
+      "temp_max_c": 36.5,
+      "diurnal_temp_swing_c": 32.0,
+      "solar_radiation_dni_kwh_m2_day": 8.7,
+      "surface_pressure_kpa": 76.5,
+      "relative_humidity_pct": 8.0,
+      "annual_precipitation_mm": 2.1,
+      "wind_speed_mean_ms": 6.5,
+      "extreme_uv_index": 14.5
+    },
+    "resources": {
+      "water_ice_availability_score": 5.0,
+      "subsurface_water_indicator": 12.0,
+      "mineral_resource_richness": 88.0,
+      "construction_material_score": 74.0,
+      "solar_energy_potential": 98.0
+    },
+    "operational": {
+      "accessibility_score": 72.0,
+      "scientific_research_value": 96.0,
+      "astronaut_training_score": 88.0,
+      "equipment_testing_score": 95.0,
+      "life_support_testing_score": 89.0,
+      "isru_testing_score": 92.0
+    },
+    "special_features": {
+      "lava_tubes": false,
+      "caves": true,
+      "polar_region": false,
+      "arid_environment": true,
+      "high_altitude_desert": true,
+      "hyper_saline": true
+    },
+    "data_sources": {
+      "nasa_datasets": [
+        "NASA Earthdata MODIS LST (MOD11A2)",
+        "NASA SRTM GL1 30m DEM",
+        "CERES Surface Solar Fluxes"
+      ],
+      "planetary_equivalents": [
+        "NASA Mars 2020 Perseverance perchlorate benchmark",
+        "Viking 1 Labeled Release soil analog"
+      ],
+      "limitations": "Earth 1-g gravity, 76 kPa N2/O2 atmosphere vs Mars 0.6 kPa CO2"
+    }
+  },
+  {
+    "id": "death-valley-usa",
+    "name": "Death Valley (Badwater & Ubehebe Crater)",
+    "country": "United States",
+    "region": "California",
+    "category": "Reference Location",
+    "coordinates": {
+      "lat": 36.242,
+      "lng": -116.825
+    },
+    "terrain_type": "Hyper-Arid Graben, Salt Playa & Phreatomagmatic Crater",
+    "elevation_m": -86,
+    "slope_deg": 8.4,
+    "surface_roughness": 0.72,
+    "ruggedness_index": 58.0,
+    "crater_formations": true,
+    "mountainous_terrain": true,
+    "geology": {
+      "rock_composition": "Basaltic cinder cones, evaporites, borates, gypsum, alluvium gravels",
+      "basaltic_percentage": 48.0,
+      "volcanic_terrain": true,
+      "mineral_diversity_score": 82.0,
+      "regolith_similarity_score": 72.0,
+      "geological_stability_score": 70.0
+    },
+    "environmental": {
+      "surface_temp_mean_c": 25.0,
+      "temp_min_c": 4.0,
+      "temp_max_c": 54.0,
+      "diurnal_temp_swing_c": 28.0,
+      "solar_radiation_dni_kwh_m2_day": 7.8,
+      "surface_pressure_kpa": 102.5,
+      "relative_humidity_pct": 12.0,
+      "annual_precipitation_mm": 55.0,
+      "wind_speed_mean_ms": 5.8,
+      "extreme_uv_index": 11.5
+    },
+    "resources": {
+      "water_ice_availability_score": 2.0,
+      "subsurface_water_indicator": 10.0,
+      "mineral_resource_richness": 76.0,
+      "construction_material_score": 68.0,
+      "solar_energy_potential": 92.0
+    },
+    "operational": {
+      "accessibility_score": 90.0,
+      "scientific_research_value": 85.0,
+      "astronaut_training_score": 82.0,
+      "equipment_testing_score": 92.0,
+      "life_support_testing_score": 84.0,
+      "isru_testing_score": 78.0
+    },
+    "special_features": {
+      "lava_tubes": false,
+      "caves": true,
+      "polar_region": false,
+      "arid_environment": true,
+      "high_altitude_desert": false,
+      "hyper_saline": true
+    },
+    "data_sources": {
+      "nasa_datasets": [
+        "USGS 3DEP 10m DEM",
+        "NASA Earthdata Landsat 8/9 OLI-TIRS",
+        "NASA ECOSTRESS"
+      ],
+      "planetary_equivalents": [
+        "Mars Curiosity Gale crater mudstone & playa analogies",
+        "Phreatomagmatic cratering physics"
+      ],
+      "limitations": "High atmospheric pressure (>101 kPa) and high ambient oxygen"
+    }
+  },
+  {
+    "id": "haughton-crater-canada",
+    "name": "Haughton Impact Crater (Devon Island)",
+    "country": "Canada",
+    "region": "Nunavut (High Arctic)",
+    "category": "Reference Location",
+    "coordinates": {
+      "lat": 75.383,
+      "lng": -89.667
+    },
+    "terrain_type": "Impact Structure in Cold Polar Desert & Permafrost",
+    "elevation_m": 240,
+    "slope_deg": 16.5,
+    "surface_roughness": 0.88,
+    "ruggedness_index": 82.0,
+    "crater_formations": true,
+    "mountainous_terrain": true,
+    "geology": {
+      "rock_composition": "Impact melt breccia, shattered dolomites, hydrothermal paleosols, shattered limestone",
+      "basaltic_percentage": 22.0,
+      "volcanic_terrain": false,
+      "mineral_diversity_score": 85.0,
+      "regolith_similarity_score": 89.0,
+      "geological_stability_score": 92.0
+    },
+    "environmental": {
+      "surface_temp_mean_c": -17.5,
+      "temp_min_c": -48.0,
+      "temp_max_c": 10.0,
+      "diurnal_temp_swing_c": 22.0,
+      "solar_radiation_dni_kwh_m2_day": 3.2,
+      "surface_pressure_kpa": 98.5,
+      "relative_humidity_pct": 55.0,
+      "annual_precipitation_mm": 110.0,
+      "wind_speed_mean_ms": 7.8,
+      "extreme_uv_index": 4.0
+    },
+    "resources": {
+      "water_ice_availability_score": 82.0,
+      "subsurface_water_indicator": 78.0,
+      "mineral_resource_richness": 70.0,
+      "construction_material_score": 82.0,
+      "solar_energy_potential": 35.0
+    },
+    "operational": {
+      "accessibility_score": 38.0,
+      "scientific_research_value": 98.0,
+      "astronaut_training_score": 96.0,
+      "equipment_testing_score": 94.0,
+      "life_support_testing_score": 95.0,
+      "isru_testing_score": 80.0
+    },
+    "special_features": {
+      "lava_tubes": false,
+      "caves": true,
+      "polar_region": true,
+      "arid_environment": true,
+      "high_altitude_desert": false,
+      "hyper_saline": false
+    },
+    "data_sources": {
+      "nasa_datasets": [
+        "NASA Haughton-Mars Project PDS Archive",
+        "Copernicus ArcticDEM 2m",
+        "NASA Earthdata MODIS Albedo"
+      ],
+      "planetary_equivalents": [
+        "Moon complex impact crater morphometry (LOLA)",
+        "Mars polar crater permafrost systems (HiRISE)"
+      ],
+      "limitations": "Sub-polar atmosphere with continuous seasonal polar night"
+    }
+  },
+  {
+    "id": "mcmurdo-dry-valleys-antarctica",
+    "name": "McMurdo Dry Valleys (Taylor & Wright Valleys)",
+    "country": "Antarctica",
+    "region": "Victoria Land",
+    "category": "Reference Location",
+    "coordinates": {
+      "lat": -77.5,
+      "lng": 162.5
+    },
+    "terrain_type": "Hyper-Arid Polar Permafrost & Ventifact Desert",
+    "elevation_m": 850,
+    "slope_deg": 18.2,
+    "surface_roughness": 0.84,
+    "ruggedness_index": 88.0,
+    "crater_formations": false,
+    "mountainous_terrain": true,
+    "geology": {
+      "rock_composition": "Ferrar dolerite sills, granitic till, permafrost ground ice, endolithic sandstone",
+      "basaltic_percentage": 65.0,
+      "volcanic_terrain": true,
+      "mineral_diversity_score": 80.0,
+      "regolith_similarity_score": 92.0,
+      "geological_stability_score": 98.0
+    },
+    "environmental": {
+      "surface_temp_mean_c": -20.0,
+      "temp_min_c": -52.0,
+      "temp_max_c": 2.0,
+      "diurnal_temp_swing_c": 30.0,
+      "solar_radiation_dni_kwh_m2_day": 4.1,
+      "surface_pressure_kpa": 91.0,
+      "relative_humidity_pct": 4.0,
+      "annual_precipitation_mm": 15.0,
+      "wind_speed_mean_ms": 12.5,
+      "extreme_uv_index": 7.0
+    },
+    "resources": {
+      "water_ice_availability_score": 75.0,
+      "subsurface_water_indicator": 82.0,
+      "mineral_resource_richness": 68.0,
+      "construction_material_score": 86.0,
+      "solar_energy_potential": 42.0
+    },
+    "operational": {
+      "accessibility_score": 32.0,
+      "scientific_research_value": 99.0,
+      "astronaut_training_score": 94.0,
+      "equipment_testing_score": 98.0,
+      "life_support_testing_score": 97.0,
+      "isru_testing_score": 88.0
+    },
+    "special_features": {
+      "lava_tubes": false,
+      "caves": true,
+      "polar_region": true,
+      "arid_environment": true,
+      "high_altitude_desert": false,
+      "hyper_saline": true
+    },
+    "data_sources": {
+      "nasa_datasets": [
+        "USGS Antarctica REMA 8m DEM",
+        "NASA ICESat-2 Land Ice Data",
+        "NASA MODIS Cryosphere L3"
+      ],
+      "planetary_equivalents": [
+        "Mars Phoenix polar landing site regolith",
+        "Moon PSR volatile cold trap thermal dynamics"
+      ],
+      "limitations": "Strict Antarctic Treaty logistics restrictions and environmental protections"
+    }
+  },
+  {
+    "id": "ladakh-india",
+    "name": "Ladakh Cold High-Altitude Desert (Puga & Tso Kar)",
+    "country": "India",
+    "region": "Ladakh (Himalayas)",
+    "category": "Reference Location",
+    "coordinates": {
+      "lat": 33.22,
+      "lng": 78.35
+    },
+    "terrain_type": "High-Altitude Cold Permafrost & Geothermal Sinter Playa",
+    "elevation_m": 4550,
+    "slope_deg": 17.0,
+    "surface_roughness": 0.81,
+    "ruggedness_index": 84.0,
+    "crater_formations": false,
+    "mountainous_terrain": true,
+    "geology": {
+      "rock_composition": "Ophiolites, basaltic andesite, borax, sulfur springs, permafrost polygons, glacio-lacustrine silt",
+      "basaltic_percentage": 44.0,
+      "volcanic_terrain": true,
+      "mineral_diversity_score": 88.0,
+      "regolith_similarity_score": 87.0,
+      "geological_stability_score": 68.0
+    },
+    "environmental": {
+      "surface_temp_mean_c": 1.5,
+      "temp_min_c": -35.0,
+      "temp_max_c": 24.0,
+      "diurnal_temp_swing_c": 38.0,
+      "solar_radiation_dni_kwh_m2_day": 7.9,
+      "surface_pressure_kpa": 58.0,
+      "relative_humidity_pct": 18.0,
+      "annual_precipitation_mm": 95.0,
+      "wind_speed_mean_ms": 7.4,
+      "extreme_uv_index": 15.0
+    },
+    "resources": {
+      "water_ice_availability_score": 68.0,
+      "subsurface_water_indicator": 72.0,
+      "mineral_resource_richness": 84.0,
+      "construction_material_score": 80.0,
+      "solar_energy_potential": 91.0
+    },
+    "operational": {
+      "accessibility_score": 62.0,
+      "scientific_research_value": 94.0,
+      "astronaut_training_score": 92.0,
+      "equipment_testing_score": 91.0,
+      "life_support_testing_score": 90.0,
+      "isru_testing_score": 86.0
+    },
+    "special_features": {
+      "lava_tubes": false,
+      "caves": true,
+      "polar_region": false,
+      "arid_environment": true,
+      "high_altitude_desert": true,
+      "hyper_saline": true
+    },
+    "data_sources": {
+      "nasa_datasets": [
+        "NASA SRTM 30m Global Elevation",
+        "NASA Earthdata MERRA-2 Atmospheric Reanalysis",
+        "ISRO Cartosat DEM"
+      ],
+      "planetary_equivalents": [
+        "Mars low-pressure high UV atmospheric testing",
+        "Moon high-altitude solar simulator analog"
+      ],
+      "limitations": "Seismically active Himalayan collision zone; lower latitude UV profiles than lunar"
+    }
+  },
+  {
+    "id": "rann-of-kutch-india",
+    "name": "Great Rann of Kutch (Mata no Madh Sulfate Playa)",
+    "country": "India",
+    "region": "Gujarat",
+    "category": "Reference Location",
+    "coordinates": {
+      "lat": 23.85,
+      "lng": 69.8
+    },
+    "terrain_type": "Hyper-Saline Evaporite Flat & Sulfate Basalt Weathering Basin",
+    "elevation_m": 12,
+    "slope_deg": 1.2,
+    "surface_roughness": 0.28,
+    "ruggedness_index": 14.0,
+    "crater_formations": false,
+    "mountainous_terrain": false,
+    "geology": {
+      "rock_composition": "Jarosite, alunite, gypsum, Deccan Trap basalt clays, halite crust",
+      "basaltic_percentage": 58.0,
+      "volcanic_terrain": true,
+      "mineral_diversity_score": 91.0,
+      "regolith_similarity_score": 79.0,
+      "geological_stability_score": 72.0
+    },
+    "environmental": {
+      "surface_temp_mean_c": 27.5,
+      "temp_min_c": 7.0,
+      "temp_max_c": 49.0,
+      "diurnal_temp_swing_c": 26.0,
+      "solar_radiation_dni_kwh_m2_day": 7.1,
+      "surface_pressure_kpa": 101.2,
+      "relative_humidity_pct": 34.0,
+      "annual_precipitation_mm": 320.0,
+      "wind_speed_mean_ms": 5.4,
+      "extreme_uv_index": 12.0
+    },
+    "resources": {
+      "water_ice_availability_score": 4.0,
+      "subsurface_water_indicator": 35.0,
+      "mineral_resource_richness": 92.0,
+      "construction_material_score": 58.0,
+      "solar_energy_potential": 88.0
+    },
+    "operational": {
+      "accessibility_score": 82.0,
+      "scientific_research_value": 91.0,
+      "astronaut_training_score": 74.0,
+      "equipment_testing_score": 86.0,
+      "life_support_testing_score": 75.0,
+      "isru_testing_score": 89.0
+    },
+    "special_features": {
+      "lava_tubes": false,
+      "caves": false,
+      "polar_region": false,
+      "arid_environment": true,
+      "high_altitude_desert": false,
+      "hyper_saline": true
+    },
+    "data_sources": {
+      "nasa_datasets": [
+        "NASA Landsat-9 OLI Mineral Spectral Mapping",
+        "NASA ASTER Global DEM",
+        "ISRO RISAT SAR"
+      ],
+      "planetary_equivalents": [
+        "Mars Opportunity rover Jarosite discovery at Meridiani Planum",
+        "Basalt-acid sulfate brine weathering"
+      ],
+      "limitations": "Monsoon flooding occurs seasonally between July and September"
+    }
+  },
+  {
+    "id": "iceland-volcanic-highlands",
+    "name": "Icelandic Highlands (Askja & Holuhraun Basalt Fields)",
+    "country": "Iceland",
+    "region": "Northern Highlands",
+    "category": "Reference Location",
+    "coordinates": {
+      "lat": 65.033,
+      "lng": -16.75
+    },
+    "terrain_type": "Pristine Basaltic Lava Fields, Calderas & Glaciovolcanic Terrains",
+    "elevation_m": 1100,
+    "slope_deg": 14.8,
+    "surface_roughness": 0.92,
+    "ruggedness_index": 79.0,
+    "crater_formations": true,
+    "mountainous_terrain": true,
+    "geology": {
+      "rock_composition": "Tholeiitic basalt, pahoehoe & aa lava, hyaloclastite, obsidian, volcanic glass",
+      "basaltic_percentage": 94.0,
+      "volcanic_terrain": true,
+      "mineral_diversity_score": 84.0,
+      "regolith_similarity_score": 93.0,
+      "geological_stability_score": 62.0
+    },
+    "environmental": {
+      "surface_temp_mean_c": -2.0,
+      "temp_min_c": -28.0,
+      "temp_max_c": 16.0,
+      "diurnal_temp_swing_c": 18.0,
+      "solar_radiation_dni_kwh_m2_day": 3.6,
+      "surface_pressure_kpa": 88.0,
+      "relative_humidity_pct": 74.0,
+      "annual_precipitation_mm": 650.0,
+      "wind_speed_mean_ms": 9.5,
+      "extreme_uv_index": 3.8
+    },
+    "resources": {
+      "water_ice_availability_score": 78.0,
+      "subsurface_water_indicator": 85.0,
+      "mineral_resource_richness": 78.0,
+      "construction_material_score": 95.0,
+      "solar_energy_potential": 38.0
+    },
+    "operational": {
+      "accessibility_score": 65.0,
+      "scientific_research_value": 97.0,
+      "astronaut_training_score": 97.0,
+      "equipment_testing_score": 96.0,
+      "life_support_testing_score": 88.0,
+      "isru_testing_score": 94.0
+    },
+    "special_features": {
+      "lava_tubes": true,
+      "caves": true,
+      "polar_region": false,
+      "arid_environment": false,
+      "high_altitude_desert": true,
+      "hyper_saline": false
+    },
+    "data_sources": {
+      "nasa_datasets": [
+        "NASA Apollo Astronaut Field Training Archives",
+        "Copernicus Sentinel-2 Basalt Spectrometry",
+        "NASA SRTM 30m"
+      ],
+      "planetary_equivalents": [
+        "Lunar maria basalt mineralogy (Apollo 11/12)",
+        "Mars Cerberus Palus volcanic plains (HiRISE)"
+      ],
+      "limitations": "Frequent precipitation and maritime cloud cover attenuates solar radiation"
+    }
+  },
+  {
+    "id": "sahara-richat-mauritania",
+    "name": "Sahara Desert & Richat Structure (Eye of the Sahara)",
+    "country": "Mauritania",
+    "region": "Adrar Plateau",
+    "category": "Reference Location",
+    "coordinates": {
+      "lat": 21.127,
+      "lng": -11.401
+    },
+    "terrain_type": "Deeply Eroded Alkaline Igneous Dome & Hyper-Arid Sand Erg",
+    "elevation_m": 420,
+    "slope_deg": 9.1,
+    "surface_roughness": 0.65,
+    "ruggedness_index": 54.0,
+    "crater_formations": true,
+    "mountainous_terrain": true,
+    "geology": {
+      "rock_composition": "Carbonatites, kimberlites, hydrothermal breccias, quartzites, silica sands",
+      "basaltic_percentage": 38.0,
+      "volcanic_terrain": true,
+      "mineral_diversity_score": 86.0,
+      "regolith_similarity_score": 76.0,
+      "geological_stability_score": 94.0
+    },
+    "environmental": {
+      "surface_temp_mean_c": 29.0,
+      "temp_min_c": 8.0,
+      "temp_max_c": 51.0,
+      "diurnal_temp_swing_c": 31.0,
+      "solar_radiation_dni_kwh_m2_day": 8.2,
+      "surface_pressure_kpa": 96.5,
+      "relative_humidity_pct": 14.0,
+      "annual_precipitation_mm": 40.0,
+      "wind_speed_mean_ms": 7.2,
+      "extreme_uv_index": 12.8
+    },
+    "resources": {
+      "water_ice_availability_score": 2.0,
+      "subsurface_water_indicator": 8.0,
+      "mineral_resource_richness": 82.0,
+      "construction_material_score": 70.0,
+      "solar_energy_potential": 96.0
+    },
+    "operational": {
+      "accessibility_score": 48.0,
+      "scientific_research_value": 89.0,
+      "astronaut_training_score": 80.0,
+      "equipment_testing_score": 88.0,
+      "life_support_testing_score": 81.0,
+      "isru_testing_score": 79.0
+    },
+    "special_features": {
+      "lava_tubes": false,
+      "caves": true,
+      "polar_region": false,
+      "arid_environment": true,
+      "high_altitude_desert": false,
+      "hyper_saline": false
+    },
+    "data_sources": {
+      "nasa_datasets": [
+        "NASA Landsat 9 Earth Engine Composite",
+        "NASA SRTM 30m",
+        "MODIS Deep Blue Aerosol Optical Depth"
+      ],
+      "planetary_equivalents": [
+        "Mars circular multi-ring structure erosional analogs",
+        "Martian dust lifting and aeolian saltation"
+      ],
+      "limitations": "Remote logistical supply line; extreme summertime ambient heat (>50\u00b0C)"
+    }
+  },
+  {
+    "id": "namib-desert-namibia",
+    "name": "Namib Sand Sea & Gobabeb (Sossusvlei)",
+    "country": "Namibia",
+    "region": "Erongo",
+    "category": "Reference Location",
+    "coordinates": {
+      "lat": -24.75,
+      "lng": 15.3
+    },
+    "terrain_type": "Ancient Hyper-Arid Coastal Erg & Gypsum-Crusted Pans",
+    "elevation_m": 350,
+    "slope_deg": 12.5,
+    "surface_roughness": 0.52,
+    "ruggedness_index": 48.0,
+    "crater_formations": false,
+    "mountainous_terrain": false,
+    "geology": {
+      "rock_composition": "Quartzite sand dunes coated in hematite iron oxide, gypsum crusts, calcrete pans",
+      "basaltic_percentage": 25.0,
+      "volcanic_terrain": false,
+      "mineral_diversity_score": 72.0,
+      "regolith_similarity_score": 81.0,
+      "geological_stability_score": 96.0
+    },
+    "environmental": {
+      "surface_temp_mean_c": 19.5,
+      "temp_min_c": 3.0,
+      "temp_max_c": 44.0,
+      "diurnal_temp_swing_c": 28.0,
+      "solar_radiation_dni_kwh_m2_day": 8.0,
+      "surface_pressure_kpa": 97.0,
+      "relative_humidity_pct": 22.0,
+      "annual_precipitation_mm": 18.0,
+      "wind_speed_mean_ms": 6.8,
+      "extreme_uv_index": 12.0
+    },
+    "resources": {
+      "water_ice_availability_score": 6.0,
+      "subsurface_water_indicator": 14.0,
+      "mineral_resource_richness": 70.0,
+      "construction_material_score": 65.0,
+      "solar_energy_potential": 94.0
+    },
+    "operational": {
+      "accessibility_score": 68.0,
+      "scientific_research_value": 87.0,
+      "astronaut_training_score": 83.0,
+      "equipment_testing_score": 90.0,
+      "life_support_testing_score": 82.0,
+      "isru_testing_score": 76.0
+    },
+    "special_features": {
+      "lava_tubes": false,
+      "caves": false,
+      "polar_region": false,
+      "arid_environment": true,
+      "high_altitude_desert": false,
+      "hyper_saline": true
+    },
+    "data_sources": {
+      "nasa_datasets": [
+        "NASA Earthdata SRTM GL1",
+        "NASA MODIS Daily Surface Reflectance",
+        "ESA Sentinel-1 SAR"
+      ],
+      "planetary_equivalents": [
+        "Mars iron oxide hematite red dunes (Olympia Undae & Gale dunes)",
+        "Fog-water condensation survival models"
+      ],
+      "limitations": "Frequent advective marine fog provides higher localized humidity than Mars"
+    }
+  },
+  {
+    "id": "pilbara-lake-eyre-australia",
+    "name": "Pilbara Craton & Lake Eyre Basin",
+    "country": "Australia",
+    "region": "Western / South Australia",
+    "category": "Reference Location",
+    "coordinates": {
+      "lat": -21.28,
+      "lng": 119.75
+    },
+    "terrain_type": "Archean Basaltic Greenstone Belt & Ferric Evaporite Basin",
+    "elevation_m": 290,
+    "slope_deg": 7.5,
+    "surface_roughness": 0.62,
+    "ruggedness_index": 46.0,
+    "crater_formations": false,
+    "mountainous_terrain": true,
+    "geology": {
+      "rock_composition": "Banded iron formations (BIF), komatiite, hematite, fossilized stromatolites, silicified volcanic ash",
+      "basaltic_percentage": 74.0,
+      "volcanic_terrain": true,
+      "mineral_diversity_score": 94.0,
+      "regolith_similarity_score": 88.0,
+      "geological_stability_score": 99.0
+    },
+    "environmental": {
+      "surface_temp_mean_c": 26.5,
+      "temp_min_c": 5.0,
+      "temp_max_c": 48.0,
+      "diurnal_temp_swing_c": 29.0,
+      "solar_radiation_dni_kwh_m2_day": 7.6,
+      "surface_pressure_kpa": 98.0,
+      "relative_humidity_pct": 16.0,
+      "annual_precipitation_mm": 210.0,
+      "wind_speed_mean_ms": 5.9,
+      "extreme_uv_index": 13.5
+    },
+    "resources": {
+      "water_ice_availability_score": 8.0,
+      "subsurface_water_indicator": 24.0,
+      "mineral_resource_richness": 96.0,
+      "construction_material_score": 88.0,
+      "solar_energy_potential": 93.0
+    },
+    "operational": {
+      "accessibility_score": 70.0,
+      "scientific_research_value": 98.0,
+      "astronaut_training_score": 86.0,
+      "equipment_testing_score": 89.0,
+      "life_support_testing_score": 84.0,
+      "isru_testing_score": 91.0
+    },
+    "special_features": {
+      "lava_tubes": false,
+      "caves": true,
+      "polar_region": false,
+      "arid_environment": true,
+      "high_altitude_desert": false,
+      "hyper_saline": true
+    },
+    "data_sources": {
+      "nasa_datasets": [
+        "NASA Earthdata ASTER Geoscience Maps of Australia",
+        "USGS Planetary Geology Research Archives",
+        "Copernicus Sentinel-2"
+      ],
+      "planetary_equivalents": [
+        "Early Mars Noachian biosignature search criteria",
+        "Martian banded iron and silica sinter deposits"
+      ],
+      "limitations": "Earth oxygenated biosphere alters contemporary surface weathering"
+    }
+  },
+  {
+    "id": "hawaii-mauna-loa-hiseas",
+    "name": "Hawaii Volcanic Range (Mauna Loa & HI-SEAS)",
+    "country": "United States",
+    "region": "Hawaii",
+    "category": "Reference Location",
+    "coordinates": {
+      "lat": 19.536,
+      "lng": -155.576
+    },
+    "terrain_type": "High-Altitude Basaltic Shield Volcano & Intact Lava Tubes",
+    "elevation_m": 2500,
+    "slope_deg": 11.2,
+    "surface_roughness": 0.89,
+    "ruggedness_index": 72.0,
+    "crater_formations": true,
+    "mountainous_terrain": true,
+    "geology": {
+      "rock_composition": "Tholeiitic and alkali basalt, olivine phenocrysts, vesicular scoria, volcanic tephra",
+      "basaltic_percentage": 96.0,
+      "volcanic_terrain": true,
+      "mineral_diversity_score": 82.0,
+      "regolith_similarity_score": 94.0,
+      "geological_stability_score": 64.0
+    },
+    "environmental": {
+      "surface_temp_mean_c": 12.0,
+      "temp_min_c": -3.0,
+      "temp_max_c": 22.0,
+      "diurnal_temp_swing_c": 21.0,
+      "solar_radiation_dni_kwh_m2_day": 6.8,
+      "surface_pressure_kpa": 75.0,
+      "relative_humidity_pct": 38.0,
+      "annual_precipitation_mm": 420.0,
+      "wind_speed_mean_ms": 7.5,
+      "extreme_uv_index": 12.0
+    },
+    "resources": {
+      "water_ice_availability_score": 25.0,
+      "subsurface_water_indicator": 35.0,
+      "mineral_resource_richness": 82.0,
+      "construction_material_score": 96.0,
+      "solar_energy_potential": 84.0
+    },
+    "operational": {
+      "accessibility_score": 86.0,
+      "scientific_research_value": 95.0,
+      "astronaut_training_score": 98.0,
+      "equipment_testing_score": 97.0,
+      "life_support_testing_score": 96.0,
+      "isru_testing_score": 95.0
+    },
+    "special_features": {
+      "lava_tubes": true,
+      "caves": true,
+      "polar_region": false,
+      "arid_environment": false,
+      "high_altitude_desert": true,
+      "hyper_saline": false
+    },
+    "data_sources": {
+      "nasa_datasets": [
+        "NASA HI-SEAS Mission Telemetry Archive",
+        "USGS Hawaiian Volcano Observatory LiDaR",
+        "NASA SRTM 30m"
+      ],
+      "planetary_equivalents": [
+        "Moon and Mars basaltic lava tubes for pressurized habitat shielding",
+        "Lunar maria regolith basalt chemistry"
+      ],
+      "limitations": "Active volcanic tectonic movement and occasional vog emissions"
+    }
+  },
+  {
+    "id": "danakil-dallol-ethiopia",
+    "name": "Danakil Depression & Dallol Hydrothermal Dome",
+    "country": "Ethiopia",
+    "region": "Afar Triangle",
+    "category": "Discovered Analog",
+    "coordinates": {
+      "lat": 14.241,
+      "lng": 40.298
+    },
+    "terrain_type": "Tectonic Rift Graben, Hyper-Acidic Geothermal Brines & Basalt",
+    "elevation_m": -125,
+    "slope_deg": 4.5,
+    "surface_roughness": 0.61,
+    "ruggedness_index": 38.0,
+    "crater_formations": true,
+    "mountainous_terrain": false,
+    "geology": {
+      "rock_composition": "Basaltic fissures, native sulfur, jarosite, iron chlorides, carnallite evaporites",
+      "basaltic_percentage": 76.0,
+      "volcanic_terrain": true,
+      "mineral_diversity_score": 95.0,
+      "regolith_similarity_score": 83.0,
+      "geological_stability_score": 52.0
+    },
+    "environmental": {
+      "surface_temp_mean_c": 35.0,
+      "temp_min_c": 22.0,
+      "temp_max_c": 52.0,
+      "diurnal_temp_swing_c": 24.0,
+      "solar_radiation_dni_kwh_m2_day": 7.4,
+      "surface_pressure_kpa": 102.8,
+      "relative_humidity_pct": 18.0,
+      "annual_precipitation_mm": 120.0,
+      "wind_speed_mean_ms": 6.2,
+      "extreme_uv_index": 13.0
+    },
+    "resources": {
+      "water_ice_availability_score": 0.0,
+      "subsurface_water_indicator": 15.0,
+      "mineral_resource_richness": 97.0,
+      "construction_material_score": 62.0,
+      "solar_energy_potential": 89.0
+    },
+    "operational": {
+      "accessibility_score": 42.0,
+      "scientific_research_value": 96.0,
+      "astronaut_training_score": 78.0,
+      "equipment_testing_score": 91.0,
+      "life_support_testing_score": 85.0,
+      "isru_testing_score": 88.0
+    },
+    "special_features": {
+      "lava_tubes": true,
+      "caves": false,
+      "polar_region": false,
+      "arid_environment": true,
+      "high_altitude_desert": false,
+      "hyper_saline": true
+    },
+    "data_sources": {
+      "nasa_datasets": [
+        "NASA Earthdata MODIS LST Extreme Hotspots",
+        "Copernicus Sentinel-2 Mineral Ratio",
+        "ESA Envisat ASAR"
+      ],
+      "planetary_equivalents": [
+        "Early Mars acidic hydrothermal systems",
+        "Mars Gusev Crater hydrothermal silica deposits"
+      ],
+      "limitations": "Extreme toxic gas venting (SO2, Cl2) and geopolitical accessibility risks"
+    }
+  },
+  {
+    "id": "qaidam-basin-china",
+    "name": "Qaidam Basin Hyper-Arid Yardangs & Playa",
+    "country": "China",
+    "region": "Qinghai (Tibetan Plateau)",
+    "category": "Discovered Analog",
+    "coordinates": {
+      "lat": 37.85,
+      "lng": 93.4
+    },
+    "terrain_type": "High-Altitude Hyper-Arid Wind-Carved Yardang Field & Sulfate Crust",
+    "elevation_m": 2800,
+    "slope_deg": 9.8,
+    "surface_roughness": 0.74,
+    "ruggedness_index": 62.0,
+    "crater_formations": false,
+    "mountainous_terrain": true,
+    "geology": {
+      "rock_composition": "Halite, gypsum, thenardite, smectite clay, aeolian sand, carbonate mudstone",
+      "basaltic_percentage": 32.0,
+      "volcanic_terrain": false,
+      "mineral_diversity_score": 89.0,
+      "regolith_similarity_score": 88.0,
+      "geological_stability_score": 82.0
+    },
+    "environmental": {
+      "surface_temp_mean_c": 4.5,
+      "temp_min_c": -26.0,
+      "temp_max_c": 32.0,
+      "diurnal_temp_swing_c": 34.0,
+      "solar_radiation_dni_kwh_m2_day": 7.2,
+      "surface_pressure_kpa": 73.0,
+      "relative_humidity_pct": 14.0,
+      "annual_precipitation_mm": 28.0,
+      "wind_speed_mean_ms": 7.8,
+      "extreme_uv_index": 13.5
+    },
+    "resources": {
+      "water_ice_availability_score": 38.0,
+      "subsurface_water_indicator": 45.0,
+      "mineral_resource_richness": 93.0,
+      "construction_material_score": 75.0,
+      "solar_energy_potential": 88.0
+    },
+    "operational": {
+      "accessibility_score": 64.0,
+      "scientific_research_value": 93.0,
+      "astronaut_training_score": 89.0,
+      "equipment_testing_score": 93.0,
+      "life_support_testing_score": 86.0,
+      "isru_testing_score": 84.0
+    },
+    "special_features": {
+      "lava_tubes": false,
+      "caves": true,
+      "polar_region": false,
+      "arid_environment": true,
+      "high_altitude_desert": true,
+      "hyper_saline": true
+    },
+    "data_sources": {
+      "nasa_datasets": [
+        "NASA ASTER Spectral Yardang Indices",
+        "NASA SRTM 30m",
+        "MODIS Land Aerosol"
+      ],
+      "planetary_equivalents": [
+        "Mars Medusae Fossae Formation wind-sculpted yardangs",
+        "Martian sulfate-chloride playa transitions"
+      ],
+      "limitations": "Remote logistical base required; lower ambient atmospheric density than sea-level Earth"
+    }
+  },
+  {
+    "id": "salar-de-uyuni-bolivia",
+    "name": "Salar de Uyuni & Altiplano High Plateau",
+    "country": "Bolivia",
+    "region": "Potos\u00ed",
+    "category": "Discovered Analog",
+    "coordinates": {
+      "lat": -20.133,
+      "lng": -67.489
+    },
+    "terrain_type": "High-Altitude Salt Crust, Inverted Polygons & Low Pressure Desert",
+    "elevation_m": 3656,
+    "slope_deg": 0.4,
+    "surface_roughness": 0.22,
+    "ruggedness_index": 8.0,
+    "crater_formations": false,
+    "mountainous_terrain": false,
+    "geology": {
+      "rock_composition": "Halite salt crust, lithium-rich brines, gypsum, ulexite, volcanic ash deposits",
+      "basaltic_percentage": 28.0,
+      "volcanic_terrain": true,
+      "mineral_diversity_score": 83.0,
+      "regolith_similarity_score": 75.0,
+      "geological_stability_score": 84.0
+    },
+    "environmental": {
+      "surface_temp_mean_c": 9.0,
+      "temp_min_c": -18.0,
+      "temp_max_c": 21.0,
+      "diurnal_temp_swing_c": 35.0,
+      "solar_radiation_dni_kwh_m2_day": 8.5,
+      "surface_pressure_kpa": 65.0,
+      "relative_humidity_pct": 20.0,
+      "annual_precipitation_mm": 180.0,
+      "wind_speed_mean_ms": 6.9,
+      "extreme_uv_index": 16.0
+    },
+    "resources": {
+      "water_ice_availability_score": 15.0,
+      "subsurface_water_indicator": 40.0,
+      "mineral_resource_richness": 95.0,
+      "construction_material_score": 68.0,
+      "solar_energy_potential": 95.0
+    },
+    "operational": {
+      "accessibility_score": 74.0,
+      "scientific_research_value": 89.0,
+      "astronaut_training_score": 84.0,
+      "equipment_testing_score": 90.0,
+      "life_support_testing_score": 82.0,
+      "isru_testing_score": 85.0
+    },
+    "special_features": {
+      "lava_tubes": false,
+      "caves": false,
+      "polar_region": false,
+      "arid_environment": true,
+      "high_altitude_desert": true,
+      "hyper_saline": true
+    },
+    "data_sources": {
+      "nasa_datasets": [
+        "NASA Earthdata ICESat / CALIPSO Altiplano Calibration",
+        "NASA Landsat 8 Surface Reflectance",
+        "SRTM DEM"
+      ],
+      "planetary_equivalents": [
+        "Mars radar calibration flat surfaces",
+        "High-UV radiation environment solar testing"
+      ],
+      "limitations": "Seasonal shallow water sheeting during January-February rains"
+    }
+  },
+  {
+    "id": "craters-of-the-moon-idaho",
+    "name": "Craters of the Moon National Monument",
+    "country": "United States",
+    "region": "Idaho (Snake River Plain)",
+    "category": "Discovered Analog",
+    "coordinates": {
+      "lat": 43.461,
+      "lng": -113.562
+    },
+    "terrain_type": "Holocene Basaltic Lava Fields, Cinder Cones & Deep Lava Tubes",
+    "elevation_m": 1800,
+    "slope_deg": 13.5,
+    "surface_roughness": 0.91,
+    "ruggedness_index": 76.0,
+    "crater_formations": true,
+    "mountainous_terrain": true,
+    "geology": {
+      "rock_composition": "Ferrobasalt, pahoehoe, aa lava, plagioclase olivine phenocrysts, rafted blocks",
+      "basaltic_percentage": 92.0,
+      "volcanic_terrain": true,
+      "mineral_diversity_score": 79.0,
+      "regolith_similarity_score": 91.0,
+      "geological_stability_score": 88.0
+    },
+    "environmental": {
+      "surface_temp_mean_c": 6.8,
+      "temp_min_c": -24.0,
+      "temp_max_c": 36.0,
+      "diurnal_temp_swing_c": 28.0,
+      "solar_radiation_dni_kwh_m2_day": 5.9,
+      "surface_pressure_kpa": 82.0,
+      "relative_humidity_pct": 32.0,
+      "annual_precipitation_mm": 380.0,
+      "wind_speed_mean_ms": 6.5,
+      "extreme_uv_index": 8.5
+    },
+    "resources": {
+      "water_ice_availability_score": 45.0,
+      "subsurface_water_indicator": 58.0,
+      "mineral_resource_richness": 78.0,
+      "construction_material_score": 94.0,
+      "solar_energy_potential": 76.0
+    },
+    "operational": {
+      "accessibility_score": 88.0,
+      "scientific_research_value": 94.0,
+      "astronaut_training_score": 95.0,
+      "equipment_testing_score": 96.0,
+      "life_support_testing_score": 89.0,
+      "isru_testing_score": 93.0
+    },
+    "special_features": {
+      "lava_tubes": true,
+      "caves": true,
+      "polar_region": false,
+      "arid_environment": true,
+      "high_altitude_desert": true,
+      "hyper_saline": false
+    },
+    "data_sources": {
+      "nasa_datasets": [
+        "USGS 3DEP 1m Lidar Point Cloud",
+        "NASA FINESSE / SUBMARS Project Archives",
+        "NASA Earthdata Landsat 9"
+      ],
+      "planetary_equivalents": [
+        "Lunar maria volcanic flow morphology",
+        "Marius Hills lunar lava tube exploration analogs"
+      ],
+      "limitations": "Vegetation regrowth occurring in crevices; winter snowpack"
+    }
+  },
+  {
+    "id": "timanfaya-lanzarote-spain",
+    "name": "Timanfaya & Corona Lava Tube (Lanzarote)",
+    "country": "Spain",
+    "region": "Canary Islands",
+    "category": "Discovered Analog",
+    "coordinates": {
+      "lat": 29.025,
+      "lng": -13.733
+    },
+    "terrain_type": "Pristine Basaltic Badlands & Massive Volcanic Tube Network",
+    "elevation_m": 510,
+    "slope_deg": 12.0,
+    "surface_roughness": 0.87,
+    "ruggedness_index": 70.0,
+    "crater_formations": true,
+    "mountainous_terrain": true,
+    "geology": {
+      "rock_composition": "Alkaline basalt, olivine xenoliths, basaltic lapilli (rofe), lava tubes",
+      "basaltic_percentage": 95.0,
+      "volcanic_terrain": true,
+      "mineral_diversity_score": 85.0,
+      "regolith_similarity_score": 93.0,
+      "geological_stability_score": 86.0
+    },
+    "environmental": {
+      "surface_temp_mean_c": 21.0,
+      "temp_min_c": 13.0,
+      "temp_max_c": 31.0,
+      "diurnal_temp_swing_c": 12.0,
+      "solar_radiation_dni_kwh_m2_day": 7.1,
+      "surface_pressure_kpa": 96.0,
+      "relative_humidity_pct": 58.0,
+      "annual_precipitation_mm": 135.0,
+      "wind_speed_mean_ms": 7.6,
+      "extreme_uv_index": 10.5
+    },
+    "resources": {
+      "water_ice_availability_score": 12.0,
+      "subsurface_water_indicator": 28.0,
+      "mineral_resource_richness": 80.0,
+      "construction_material_score": 95.0,
+      "solar_energy_potential": 86.0
+    },
+    "operational": {
+      "accessibility_score": 92.0,
+      "scientific_research_value": 97.0,
+      "astronaut_training_score": 98.0,
+      "equipment_testing_score": 95.0,
+      "life_support_testing_score": 92.0,
+      "isru_testing_score": 92.0
+    },
+    "special_features": {
+      "lava_tubes": true,
+      "caves": true,
+      "polar_region": false,
+      "arid_environment": true,
+      "high_altitude_desert": false,
+      "hyper_saline": false
+    },
+    "data_sources": {
+      "nasa_datasets": [
+        "ESA PANGAEA Astronaut Training Facility Datasets",
+        "Copernicus Sentinel-2 Basalt Spectrometry",
+        "NASA SRTM"
+      ],
+      "planetary_equivalents": [
+        "ESA/NASA Lunar & Martian lava tube exploration testing",
+        "Pyroxene-olivine basalt spectra"
+      ],
+      "limitations": "Maritime Atlantic humidity dampens typical desert dryness"
+    }
+  },
+  {
+    "id": "svalbard-spitsbergen-norway",
+    "name": "Svalbard Arctic Permafrost & Bockfjorden Volcanics",
+    "country": "Norway",
+    "region": "Svalbard Archipelago",
+    "category": "Discovered Analog",
+    "coordinates": {
+      "lat": 79.45,
+      "lng": 13.4
+    },
+    "terrain_type": "Glaciated Polar Desert, Basaltic Mantle Xenoliths & Permafrost",
+    "elevation_m": 480,
+    "slope_deg": 18.0,
+    "surface_roughness": 0.85,
+    "ruggedness_index": 85.0,
+    "crater_formations": false,
+    "mountainous_terrain": true,
+    "geology": {
+      "rock_composition": "Basalt with carbonate rosettes (identical to ALH84001 Mars meteorite), permafrost pingos, mantle peridotite",
+      "basaltic_percentage": 72.0,
+      "volcanic_terrain": true,
+      "mineral_diversity_score": 92.0,
+      "regolith_similarity_score": 90.0,
+      "geological_stability_score": 90.0
+    },
+    "environmental": {
+      "surface_temp_mean_c": -5.0,
+      "temp_min_c": -32.0,
+      "temp_max_c": 12.0,
+      "diurnal_temp_swing_c": 18.0,
+      "solar_radiation_dni_kwh_m2_day": 2.8,
+      "surface_pressure_kpa": 96.0,
+      "relative_humidity_pct": 68.0,
+      "annual_precipitation_mm": 260.0,
+      "wind_speed_mean_ms": 7.9,
+      "extreme_uv_index": 3.5
+    },
+    "resources": {
+      "water_ice_availability_score": 88.0,
+      "subsurface_water_indicator": 85.0,
+      "mineral_resource_richness": 84.0,
+      "construction_material_score": 82.0,
+      "solar_energy_potential": 28.0
+    },
+    "operational": {
+      "accessibility_score": 62.0,
+      "scientific_research_value": 98.0,
+      "astronaut_training_score": 94.0,
+      "equipment_testing_score": 96.0,
+      "life_support_testing_score": 93.0,
+      "isru_testing_score": 85.0
+    },
+    "special_features": {
+      "lava_tubes": false,
+      "caves": true,
+      "polar_region": true,
+      "arid_environment": true,
+      "high_altitude_desert": false,
+      "hyper_saline": false
+    },
+    "data_sources": {
+      "nasa_datasets": [
+        "NASA AMASE (Arctic Mars Analog Svalbard Expedition) PDS Archive",
+        "Copernicus PolarDEM",
+        "Sentinel-1 InSAR Permafrost"
+      ],
+      "planetary_equivalents": [
+        "Mars meteorite ALH84001 carbonate globules origin",
+        "Permafrost polygonal cryo-soil dynamics (MRO HiRISE)"
+      ],
+      "limitations": "High latitude results in prolonged polar night with no solar power"
+    }
+  },
+  {
+    "id": "white-sands-new-mexico",
+    "name": "White Sands Gypsum Dune Field",
+    "country": "United States",
+    "region": "New Mexico (Tularosa Basin)",
+    "category": "Discovered Analog",
+    "coordinates": {
+      "lat": 32.78,
+      "lng": -106.32
+    },
+    "terrain_type": "Active Pure Gypsum Sand Dunes & Sulfate Playa",
+    "elevation_m": 1218,
+    "slope_deg": 14.0,
+    "surface_roughness": 0.48,
+    "ruggedness_index": 35.0,
+    "crater_formations": false,
+    "mountainous_terrain": false,
+    "geology": {
+      "rock_composition": "Pure hydrous calcium sulfate (gypsum CaSO4\u00b72H2O), selenite crystals, evaporite playa",
+      "basaltic_percentage": 4.0,
+      "volcanic_terrain": false,
+      "mineral_diversity_score": 65.0,
+      "regolith_similarity_score": 73.0,
+      "geological_stability_score": 94.0
+    },
+    "environmental": {
+      "surface_temp_mean_c": 17.5,
+      "temp_min_c": -10.0,
+      "temp_max_c": 41.0,
+      "diurnal_temp_swing_c": 28.0,
+      "solar_radiation_dni_kwh_m2_day": 7.4,
+      "surface_pressure_kpa": 88.0,
+      "relative_humidity_pct": 28.0,
+      "annual_precipitation_mm": 240.0,
+      "wind_speed_mean_ms": 6.1,
+      "extreme_uv_index": 10.5
+    },
+    "resources": {
+      "water_ice_availability_score": 35.0,
+      "subsurface_water_indicator": 52.0,
+      "mineral_resource_richness": 78.0,
+      "construction_material_score": 82.0,
+      "solar_energy_potential": 90.0
+    },
+    "operational": {
+      "accessibility_score": 91.0,
+      "scientific_research_value": 90.0,
+      "astronaut_training_score": 86.0,
+      "equipment_testing_score": 89.0,
+      "life_support_testing_score": 80.0,
+      "isru_testing_score": 86.0
+    },
+    "special_features": {
+      "lava_tubes": false,
+      "caves": false,
+      "polar_region": false,
+      "arid_environment": true,
+      "high_altitude_desert": true,
+      "hyper_saline": true
+    },
+    "data_sources": {
+      "nasa_datasets": [
+        "USGS 3DEP 10m DEM",
+        "NASA Earthdata ASTER Thermal Infrared",
+        "Landsat-9 OLI-2"
+      ],
+      "planetary_equivalents": [
+        "Mars Olympia Undae circumpolar gypsum dunes (OMEGA / CRISM)",
+        "Water extraction from hydrous sulfate minerals"
+      ],
+      "limitations": "Absence of basaltic mineral fraction"
+    }
+  },
+  {
+    "id": "rio-tinto-spain",
+    "name": "R\u00edo Tinto Acidic Iron-Sulfate Basin",
+    "country": "Spain",
+    "region": "Andalusia (Iberian Pyrite Belt)",
+    "category": "Discovered Analog",
+    "coordinates": {
+      "lat": 37.697,
+      "lng": -6.564
+    },
+    "terrain_type": "Acidic Iron-River, Gossan Cap & Subsurface Biogeochemistry",
+    "elevation_m": 380,
+    "slope_deg": 8.0,
+    "surface_roughness": 0.54,
+    "ruggedness_index": 42.0,
+    "crater_formations": false,
+    "mountainous_terrain": false,
+    "geology": {
+      "rock_composition": "Massive pyritic sulfides, jarosite, goethite, hematite, copiapite, acid-leached gossans",
+      "basaltic_percentage": 20.0,
+      "volcanic_terrain": true,
+      "mineral_diversity_score": 94.0,
+      "regolith_similarity_score": 80.0,
+      "geological_stability_score": 88.0
+    },
+    "environmental": {
+      "surface_temp_mean_c": 17.8,
+      "temp_min_c": 3.0,
+      "temp_max_c": 40.0,
+      "diurnal_temp_swing_c": 22.0,
+      "solar_radiation_dni_kwh_m2_day": 6.3,
+      "surface_pressure_kpa": 97.5,
+      "relative_humidity_pct": 52.0,
+      "annual_precipitation_mm": 680.0,
+      "wind_speed_mean_ms": 4.8,
+      "extreme_uv_index": 9.5
+    },
+    "resources": {
+      "water_ice_availability_score": 10.0,
+      "subsurface_water_indicator": 60.0,
+      "mineral_resource_richness": 96.0,
+      "construction_material_score": 64.0,
+      "solar_energy_potential": 81.0
+    },
+    "operational": {
+      "accessibility_score": 89.0,
+      "scientific_research_value": 96.0,
+      "astronaut_training_score": 82.0,
+      "equipment_testing_score": 88.0,
+      "life_support_testing_score": 86.0,
+      "isru_testing_score": 89.0
+    },
+    "special_features": {
+      "lava_tubes": false,
+      "caves": true,
+      "polar_region": false,
+      "arid_environment": false,
+      "high_altitude_desert": false,
+      "hyper_saline": true
+    },
+    "data_sources": {
+      "nasa_datasets": [
+        "NASA MARTE (Mars Astrobiology Research and Technology Experiment) Drilling Archive",
+        "ESA Mars Express CRISM Cross-Validations"
+      ],
+      "planetary_equivalents": [
+        "Mars Opportunity Meridiani jarosite and iron sulfate chemistry",
+        "Subsurface anaerobic chemolithotroph biosignatures"
+      ],
+      "limitations": "Mediterranean climate with significant autumn/winter rainfall"
+    }
+  },
+  {
+    "id": "lonar-crater-india",
+    "name": "Lonar Impact Crater in Basalt",
+    "country": "India",
+    "region": "Maharashtra (Deccan Traps)",
+    "category": "Discovered Analog",
+    "coordinates": {
+      "lat": 19.975,
+      "lng": 76.507
+    },
+    "terrain_type": "Hypervelocity Meteorite Impact Crater in Continental Flood Basalt",
+    "elevation_m": 560,
+    "slope_deg": 22.0,
+    "surface_roughness": 0.86,
+    "ruggedness_index": 78.0,
+    "crater_formations": true,
+    "mountainous_terrain": true,
+    "geology": {
+      "rock_composition": "Shocked basalt, maskelynite, shatter cones, impact melt ejecta, saline-alkaline crater lake sediments",
+      "basaltic_percentage": 92.0,
+      "volcanic_terrain": true,
+      "mineral_diversity_score": 90.0,
+      "regolith_similarity_score": 94.0,
+      "geological_stability_score": 82.0
+    },
+    "environmental": {
+      "surface_temp_mean_c": 26.0,
+      "temp_min_c": 11.0,
+      "temp_max_c": 43.0,
+      "diurnal_temp_swing_c": 22.0,
+      "solar_radiation_dni_kwh_m2_day": 6.8,
+      "surface_pressure_kpa": 95.0,
+      "relative_humidity_pct": 46.0,
+      "annual_precipitation_mm": 750.0,
+      "wind_speed_mean_ms": 4.9,
+      "extreme_uv_index": 12.0
+    },
+    "resources": {
+      "water_ice_availability_score": 12.0,
+      "subsurface_water_indicator": 48.0,
+      "mineral_resource_richness": 88.0,
+      "construction_material_score": 92.0,
+      "solar_energy_potential": 85.0
+    },
+    "operational": {
+      "accessibility_score": 82.0,
+      "scientific_research_value": 98.0,
+      "astronaut_training_score": 92.0,
+      "equipment_testing_score": 91.0,
+      "life_support_testing_score": 84.0,
+      "isru_testing_score": 90.0
+    },
+    "special_features": {
+      "lava_tubes": false,
+      "caves": false,
+      "polar_region": false,
+      "arid_environment": false,
+      "high_altitude_desert": false,
+      "hyper_saline": true
+    },
+    "data_sources": {
+      "nasa_datasets": [
+        "NASA USGS Lunar Sample & Impact Crater Database",
+        "ISRO Chandrayaan-1 M3 / Lonar Spectral Comparisons",
+        "NASA SRTM 30m"
+      ],
+      "planetary_equivalents": [
+        "Lunar maria hypervelocity crater ejecta blanket and maskelynite",
+        "Martian basaltic impact cratering physics"
+      ],
+      "limitations": "Tropical deciduous vegetation around crater walls; monsoon season"
+    }
+  },
+  {
+    "id": "lake-untersee-antarctica",
+    "name": "Lake Untersee Oasis (Queen Maud Land)",
+    "country": "Antarctica",
+    "region": "Wohlthat Mountains",
+    "category": "Discovered Analog",
+    "coordinates": {
+      "lat": -71.34,
+      "lng": 13.45
+    },
+    "terrain_type": "Perennially Ice-Covered Ultra-Oligotrophic Glacier Dammed Basin",
+    "elevation_m": 563,
+    "slope_deg": 19.5,
+    "surface_roughness": 0.88,
+    "ruggedness_index": 86.0,
+    "crater_formations": false,
+    "mountainous_terrain": true,
+    "geology": {
+      "rock_composition": "Anorthosite massifs, charnockites, glacial till, conical cyanobacterial stromatolites",
+      "basaltic_percentage": 30.0,
+      "volcanic_terrain": false,
+      "mineral_diversity_score": 86.0,
+      "regolith_similarity_score": 91.0,
+      "geological_stability_score": 98.0
+    },
+    "environmental": {
+      "surface_temp_mean_c": -12.0,
+      "temp_min_c": -45.0,
+      "temp_max_c": 1.0,
+      "diurnal_temp_swing_c": 24.0,
+      "solar_radiation_dni_kwh_m2_day": 3.8,
+      "surface_pressure_kpa": 93.5,
+      "relative_humidity_pct": 8.0,
+      "annual_precipitation_mm": 25.0,
+      "wind_speed_mean_ms": 11.2,
+      "extreme_uv_index": 6.5
+    },
+    "resources": {
+      "water_ice_availability_score": 95.0,
+      "subsurface_water_indicator": 92.0,
+      "mineral_resource_richness": 76.0,
+      "construction_material_score": 84.0,
+      "solar_energy_potential": 39.0
+    },
+    "operational": {
+      "accessibility_score": 25.0,
+      "scientific_research_value": 99.0,
+      "astronaut_training_score": 92.0,
+      "equipment_testing_score": 97.0,
+      "life_support_testing_score": 98.0,
+      "isru_testing_score": 87.0
+    },
+    "special_features": {
+      "lava_tubes": false,
+      "caves": true,
+      "polar_region": true,
+      "arid_environment": true,
+      "high_altitude_desert": false,
+      "hyper_saline": false
+    },
+    "data_sources": {
+      "nasa_datasets": [
+        "NASA Astrobiology Institute Lake Untersee Expeditions",
+        "REMA Antarctic High-Res Elevation",
+        "MODIS Ice Surface Temp"
+      ],
+      "planetary_equivalents": [
+        "Mars paleolake ice cover survival (Gale / Jezero)",
+        "Europa & Enceladus sub-ice analog habitats"
+      ],
+      "limitations": "Extremely difficult intercontinental logistics requiring ski-equipped aircraft"
+    }
+  },
+  {
+    "id": "mdrs-san-rafael-utah",
+    "name": "San Rafael Swell (Mars Desert Research Station)",
+    "country": "United States",
+    "region": "Utah (Colorado Plateau)",
+    "category": "Discovered Analog",
+    "coordinates": {
+      "lat": 38.406,
+      "lng": -110.792
+    },
+    "terrain_type": "Inverted Fluvial Channels, Smectite Badlands & Entrada Sandstone",
+    "elevation_m": 1390,
+    "slope_deg": 12.8,
+    "surface_roughness": 0.7,
+    "ruggedness_index": 64.0,
+    "crater_formations": false,
+    "mountainous_terrain": true,
+    "geology": {
+      "rock_composition": "Bentonite clay, iron concretions (Utah blueberries / hematite spherules), Morrison formation mudstone",
+      "basaltic_percentage": 22.0,
+      "volcanic_terrain": false,
+      "mineral_diversity_score": 88.0,
+      "regolith_similarity_score": 86.0,
+      "geological_stability_score": 92.0
+    },
+    "environmental": {
+      "surface_temp_mean_c": 11.5,
+      "temp_min_c": -18.0,
+      "temp_max_c": 38.0,
+      "diurnal_temp_swing_c": 29.0,
+      "solar_radiation_dni_kwh_m2_day": 6.9,
+      "surface_pressure_kpa": 86.0,
+      "relative_humidity_pct": 21.0,
+      "annual_precipitation_mm": 190.0,
+      "wind_speed_mean_ms": 6.2,
+      "extreme_uv_index": 9.8
+    },
+    "resources": {
+      "water_ice_availability_score": 18.0,
+      "subsurface_water_indicator": 30.0,
+      "mineral_resource_richness": 84.0,
+      "construction_material_score": 78.0,
+      "solar_energy_potential": 87.0
+    },
+    "operational": {
+      "accessibility_score": 88.0,
+      "scientific_research_value": 95.0,
+      "astronaut_training_score": 97.0,
+      "equipment_testing_score": 96.0,
+      "life_support_testing_score": 95.0,
+      "isru_testing_score": 84.0
+    },
+    "special_features": {
+      "lava_tubes": false,
+      "caves": true,
+      "polar_region": false,
+      "arid_environment": true,
+      "high_altitude_desert": true,
+      "hyper_saline": false
+    },
+    "data_sources": {
+      "nasa_datasets": [
+        "USGS 3DEP 10m Elevation",
+        "NASA Mars Society Field Operation Archives",
+        "Landsat-8 Swell Mineral Composite"
+      ],
+      "planetary_equivalents": [
+        "Mars Opportunity hematite 'blueberries' concretions",
+        "Jezero delta mudstone sedimentology"
+      ],
+      "limitations": "Sedimentary sandstone dominance rather than primary basaltic crust"
+    }
+  },
+  {
+    "id": "undara-lava-tubes-australia",
+    "name": "Undara Volcanic National Park (Lava Tube Caves)",
+    "country": "Australia",
+    "region": "Queensland",
+    "category": "Discovered Analog",
+    "coordinates": {
+      "lat": -18.2,
+      "lng": 144.58
+    },
+    "terrain_type": "World Longest Continental Lava Tube System & Volcanic Craters",
+    "elevation_m": 720,
+    "slope_deg": 10.5,
+    "surface_roughness": 0.81,
+    "ruggedness_index": 68.0,
+    "crater_formations": true,
+    "mountainous_terrain": false,
+    "geology": {
+      "rock_composition": "Tholeiitic basalt, basaltic glass, intact volcanic tube caves, collapsed skylights",
+      "basaltic_percentage": 94.0,
+      "volcanic_terrain": true,
+      "mineral_diversity_score": 81.0,
+      "regolith_similarity_score": 92.0,
+      "geological_stability_score": 91.0
+    },
+    "environmental": {
+      "surface_temp_mean_c": 23.0,
+      "temp_min_c": 6.0,
+      "temp_max_c": 39.0,
+      "diurnal_temp_swing_c": 22.0,
+      "solar_radiation_dni_kwh_m2_day": 7.0,
+      "surface_pressure_kpa": 93.0,
+      "relative_humidity_pct": 36.0,
+      "annual_precipitation_mm": 520.0,
+      "wind_speed_mean_ms": 5.1,
+      "extreme_uv_index": 12.0
+    },
+    "resources": {
+      "water_ice_availability_score": 20.0,
+      "subsurface_water_indicator": 42.0,
+      "mineral_resource_richness": 82.0,
+      "construction_material_score": 96.0,
+      "solar_energy_potential": 88.0
+    },
+    "operational": {
+      "accessibility_score": 76.0,
+      "scientific_research_value": 93.0,
+      "astronaut_training_score": 94.0,
+      "equipment_testing_score": 95.0,
+      "life_support_testing_score": 93.0,
+      "isru_testing_score": 92.0
+    },
+    "special_features": {
+      "lava_tubes": true,
+      "caves": true,
+      "polar_region": false,
+      "arid_environment": true,
+      "high_altitude_desert": false,
+      "hyper_saline": false
+    },
+    "data_sources": {
+      "nasa_datasets": [
+        "NASA Space Archaeology & Subsurface Radar Archives",
+        "Geoscience Australia 5m LiDAR",
+        "SRTM 30m"
+      ],
+      "planetary_equivalents": [
+        "Lunar Marius Hills pit and lava tube cavern geometry",
+        "Mars Arsia Mons volcanic skylights"
+      ],
+      "limitations": "Surface semi-arid vegetation; bat populations inhabiting cave entrances"
+    }
+  },
+  {
+    "id": "axel-heiberg-canada",
+    "name": "Axel Heiberg Island Perennial Cold Saline Springs",
+    "country": "Canada",
+    "region": "Nunavut (Sverdrup Basin)",
+    "category": "Discovered Analog",
+    "coordinates": {
+      "lat": 79.433,
+      "lng": -90.75
+    },
+    "terrain_type": "Permafrost Salt Diapirs & Sub-Zero Liquid Brine Springs",
+    "elevation_m": 310,
+    "slope_deg": 15.0,
+    "surface_roughness": 0.82,
+    "ruggedness_index": 80.0,
+    "crater_formations": false,
+    "mountainous_terrain": true,
+    "geology": {
+      "rock_composition": "Anhydrite salt diapirs, sulfur-oxidizing biofilm precipitates, gabbro sills, continuous permafrost (600m deep)",
+      "basaltic_percentage": 42.0,
+      "volcanic_terrain": true,
+      "mineral_diversity_score": 90.0,
+      "regolith_similarity_score": 87.0,
+      "geological_stability_score": 94.0
+    },
+    "environmental": {
+      "surface_temp_mean_c": -15.5,
+      "temp_min_c": -47.0,
+      "temp_max_c": 8.0,
+      "diurnal_temp_swing_c": 21.0,
+      "solar_radiation_dni_kwh_m2_day": 3.1,
+      "surface_pressure_kpa": 98.0,
+      "relative_humidity_pct": 52.0,
+      "annual_precipitation_mm": 130.0,
+      "wind_speed_mean_ms": 7.5,
+      "extreme_uv_index": 3.8
+    },
+    "resources": {
+      "water_ice_availability_score": 90.0,
+      "subsurface_water_indicator": 88.0,
+      "mineral_resource_richness": 82.0,
+      "construction_material_score": 80.0,
+      "solar_energy_potential": 32.0
+    },
+    "operational": {
+      "accessibility_score": 30.0,
+      "scientific_research_value": 98.0,
+      "astronaut_training_score": 91.0,
+      "equipment_testing_score": 95.0,
+      "life_support_testing_score": 94.0,
+      "isru_testing_score": 87.0
+    },
+    "special_features": {
+      "lava_tubes": false,
+      "caves": true,
+      "polar_region": true,
+      "arid_environment": true,
+      "high_altitude_desert": false,
+      "hyper_saline": true
+    },
+    "data_sources": {
+      "nasa_datasets": [
+        "NASA CSA McGill Arctic Research Station (MARS) Archives",
+        "Copernicus ArcticDEM",
+        "Sentinel-2 Multi-Spectral"
+      ],
+      "planetary_equivalents": [
+        "Mars Recurring Slope Lineae (RSL) cold brine discharge",
+        "Martian deep subsurface hydrogeology"
+      ],
+      "limitations": "Extreme arctic isolation requiring chartered Twin Otter flights"
+    }
+  }
+]

@@ -1,0 +1,102 @@
+{
+  "lunar": {
+    "name": "Moon (Lunar South Pole & Maria Reference)",
+    "agency_sources": [
+      "NASA Lunar Reconnaissance Orbiter (LRO) Diviner / LOLA",
+      "NASA Apollo 11-17 Lunar Sample Compendium",
+      "NASA Moon Trek PDS Data Archives",
+      "LCROSS Mission Science Results (Cabeus Crater Water Ice)"
+    ],
+    "topographical": {
+      "elevation_reference": "LOLA datum (0 km mean radius 1737.4 km)",
+      "slope_mean_deg": 14.5,
+      "surface_roughness_index": 0.85,
+      "ruggedness_index": 82.0,
+      "crater_density_score": 98.0,
+      "mountainous_terrain": true
+    },
+    "geological": {
+      "regolith_depth_m": 4.5,
+      "anorthosite_fraction": 0.65,
+      "basaltic_percentage": 35.0,
+      "nanophase_iron_present": true,
+      "ilmenite_presence": true,
+      "pyroxene_olivine_ratio": 1.4,
+      "geological_stability": 99.0
+    },
+    "environmental": {
+      "mean_temp_c": -53.0,
+      "temp_min_c": -233.0,
+      "temp_max_c": 117.0,
+      "diurnal_temp_swing_c": 350.0,
+      "solar_radiation_dni_kwh_m2_day": 32.6,
+      "surface_pressure_kpa": 1e-12,
+      "relative_humidity_pct": 0.0,
+      "annual_precipitation_mm": 0.0,
+      "wind_speed_mean_ms": 0.0,
+      "extreme_thermal_radiation_score": 96.0
+    },
+    "resources": {
+      "water_ice_presence_psrs": true,
+      "estimated_water_ice_wt_pct": 5.6,
+      "solar_illumination_peaks_pct": 86.0,
+      "isru_oxygen_feedstock": "Ilmenite (FeTiO3) and Silicates",
+      "regolith_sintering_suitability": 94.0
+    },
+    "physical_constants": {
+      "gravity_m_s2": 1.62,
+      "atmosphere": "Exosphere (< 10^-14 bar)",
+      "magnetic_field": "Local crustal magnetic anomalies only"
+    }
+  },
+  "mars": {
+    "name": "Mars (Mid-Latitude & Equator Reference / Jezero / Arcadia)",
+    "agency_sources": [
+      "NASA Mars Reconnaissance Orbiter (MRO) CRISM / HiRISE / SHARAD",
+      "NASA Mars Science Laboratory (Curiosity) REMS / CheMin",
+      "NASA Mars 2020 (Perseverance) MEDA / PIXL / SHERLOC",
+      "NASA Mars Trek PDS Data Archives"
+    ],
+    "topographical": {
+      "elevation_reference": "MOLA datum (areoid 0 km)",
+      "slope_mean_deg": 8.5,
+      "surface_roughness_index": 0.65,
+      "ruggedness_index": 62.0,
+      "crater_density_score": 68.0,
+      "mountainous_terrain": true
+    },
+    "geological": {
+      "basaltic_percentage": 78.0,
+      "iron_oxides_hematite_magnetite": true,
+      "perchlorates_present": true,
+      "phyllosilicates_clays": true,
+      "sulfates_jarosite_gypsum": true,
+      "regolith_similarity_target": 88.0,
+      "geological_stability": 95.0
+    },
+    "environmental": {
+      "mean_temp_c": -63.0,
+      "temp_min_c": -125.0,
+      "temp_max_c": 20.0,
+      "diurnal_temp_swing_c": 75.0,
+      "solar_radiation_dni_kwh_m2_day": 4.3,
+      "surface_pressure_kpa": 0.61,
+      "relative_humidity_pct": 0.05,
+      "annual_precipitation_mm": 0.0,
+      "wind_speed_mean_ms": 7.2,
+      "dust_storm_frequency_score": 85.0
+    },
+    "resources": {
+      "subsurface_ice_indicators": true,
+      "ice_sheet_depth_m": 1.5,
+      "hydrated_mineral_abundance": 18.0,
+      "atmospheric_co2_capture_potential": 95.0,
+      "construction_basalt_fiber_suitability": 90.0
+    },
+    "physical_constants": {
+      "gravity_m_s2": 3.72,
+      "atmosphere": "95.3% CO2, 1.6% Ar, 1.9% N2 (0.006 bar)",
+      "magnetic_field": "Paleo-crustal remnant fields only"
+    }
+  }
+}
