@@ -3,7 +3,7 @@
  * Connects to the Flask REST API backend endpoints.
  */
 
-const API_BASE = '/api';
+const API_BASE = `${import.meta.env.VITE_API_URL || 'https://terraspace-backend.onrender.com'}/api`;
 
 export async function fetchStatus() {
   const res = await fetch(`${API_BASE}/status`);
